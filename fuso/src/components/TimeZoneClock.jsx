@@ -22,7 +22,7 @@ const TimeZoneClock = ({ timeZone }) => {
   }, [timeZone]);
 
   return (
-    <div>
+    <div className="timezone">
       <h2>{timeZone}</h2>
       <h3>{time}</h3>
     </div>
